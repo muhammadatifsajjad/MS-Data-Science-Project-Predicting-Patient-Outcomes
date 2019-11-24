@@ -2,7 +2,7 @@
 
 In addition to the data provided by NostraData, the solution uses Medicine to Disease Condition Mapping data from the PBS website. To contsruct this table, following needs to be done:
 
-(1) Download PBS data files from . For the purposes of this project, all the files from 1st Jan 2011 to 1st May 2019 were downloaded.
+(1) Download PBS data text files from https://www.pbs.gov.au/info/publication/schedule/archive. For the purposes of this project, all the files from 1st Jan 2011 to 1st May 2019 were downloaded.
 (2) Import the Talend ETL solution "PBS Extract - Talend Job.zip" in Talend Open Studio for Big Data.
 (3) Modify the source to point to the folder where the downloaded files are present.
 (4) Modify the MySQL database connection to point to the current database.
